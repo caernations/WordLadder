@@ -1,0 +1,78 @@
+- generic [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]: IF2211 · Strategi Algoritma
+        - heading "Word Ladder" [level=1] [ref=e7]
+        - paragraph [ref=e8]: Transform one word into another by changing one letter at a time. Pick a search strategy and watch the ladder unfold.
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - generic [ref=e11]:
+            - generic [ref=e12]:
+              - generic [ref=e13]: Start word
+              - textbox "Start word" [ref=e14]:
+                - /placeholder: e.g. cold
+                - text: cold
+            - generic [ref=e15]:
+              - generic [ref=e16]: Goal word
+              - textbox "Goal word" [ref=e17]:
+                - /placeholder: e.g. warm
+                - text: warm
+          - group "Algorithm" [ref=e18]:
+            - generic [ref=e19]: Algorithm
+            - generic [ref=e20]:
+              - generic [ref=e21] [cursor=pointer]:
+                - radio "UCS Uniform Cost" [checked] [ref=e22]
+                - generic [ref=e23]: UCS
+                - generic [ref=e24]: Uniform Cost
+              - generic [ref=e25] [cursor=pointer]:
+                - radio "Greedy BFS Heuristic only" [ref=e26]
+                - generic [ref=e27]: Greedy BFS
+                - generic [ref=e28]: Heuristic only
+              - generic [ref=e29] [cursor=pointer]:
+                - radio "A* Cost + heuristic" [ref=e30]
+                - generic [ref=e31]: A*
+                - generic [ref=e32]: Cost + heuristic
+          - button "Solve ladder" [active] [ref=e37] [cursor=pointer]
+        - generic [ref=e38]:
+          - generic [ref=e39]:
+            - heading "Solution" [level=2] [ref=e40]
+            - generic [ref=e41]: UCS
+          - generic [ref=e42]:
+            - generic [ref=e43]:
+              - generic [ref=e44]: Steps
+              - generic [ref=e45]: "4"
+            - generic [ref=e46]:
+              - generic [ref=e47]: Visited
+              - generic [ref=e48]: 1,212
+            - generic [ref=e49]:
+              - generic [ref=e50]: Time
+              - generic [ref=e51]: 21.3 ms
+          - generic [ref=e52]:
+            - generic [ref=e53]:
+              - generic [ref=e54]: c
+              - generic [ref=e55]: o
+              - generic [ref=e56]: l
+              - generic [ref=e57]: d
+            - generic [ref=e58]:
+              - generic [ref=e59]: w
+              - generic [ref=e60]: o
+              - generic [ref=e61]: l
+              - generic [ref=e62]: d
+            - generic [ref=e63]:
+              - generic [ref=e64]: w
+              - generic [ref=e65]: o
+              - generic [ref=e66]: r
+              - generic [ref=e67]: d
+            - generic [ref=e68]:
+              - generic [ref=e69]: w
+              - generic [ref=e70]: a
+              - generic [ref=e71]: r
+              - generic [ref=e72]: d
+            - generic [ref=e73]:
+              - generic [ref=e74]: w
+              - generic [ref=e75]: a
+              - generic [ref=e76]: r
+              - generic [ref=e77]: m
+      - generic [ref=e35]: Built with UCS, Greedy BFS, and A* · dictionary of 80k+ words
+  - alert [ref=e36]

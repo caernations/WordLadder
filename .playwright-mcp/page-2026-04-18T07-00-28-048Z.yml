@@ -1,0 +1,43 @@
+- generic [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]: IF2211 · Strategi Algoritma
+        - heading "Word Ladder" [level=1] [ref=e7]
+        - paragraph [ref=e8]: Transform one word into another by changing one letter at a time. Pick a search strategy and watch the ladder unfold.
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - generic [ref=e11]:
+            - generic [ref=e12]:
+              - generic [ref=e13]: Start word
+              - textbox "Start word" [ref=e14]:
+                - /placeholder: e.g. cold
+                - text: xyzzy
+            - generic [ref=e15]:
+              - generic [ref=e16]: Goal word
+              - textbox "Goal word" [ref=e17]:
+                - /placeholder: e.g. warm
+                - text: plumb
+          - group "Algorithm" [ref=e18]:
+            - generic [ref=e19]: Algorithm
+            - generic [ref=e20]:
+              - generic [ref=e21] [cursor=pointer]:
+                - radio "UCS Uniform Cost" [checked] [ref=e22]
+                - generic [ref=e23]: UCS
+                - generic [ref=e24]: Uniform Cost
+              - generic [ref=e25] [cursor=pointer]:
+                - radio "Greedy BFS Heuristic only" [ref=e26]
+                - generic [ref=e27]: Greedy BFS
+                - generic [ref=e28]: Heuristic only
+              - generic [ref=e29] [cursor=pointer]:
+                - radio "A* Cost + heuristic" [ref=e30]
+                - generic [ref=e31]: A*
+                - generic [ref=e32]: Cost + heuristic
+          - button "Solve ladder" [active] [ref=e37] [cursor=pointer]
+        - generic [ref=e39]:
+          - generic [ref=e78]: "!"
+          - generic [ref=e79]:
+            - generic [ref=e80]: Couldn't solve that
+            - generic [ref=e81]: "\"xyzzy\" is not in the dictionary."
+      - generic [ref=e35]: Built with UCS, Greedy BFS, and A* · dictionary of 80k+ words
+  - alert [ref=e36]

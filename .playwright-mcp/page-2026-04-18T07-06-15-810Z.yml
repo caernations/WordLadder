@@ -1,0 +1,61 @@
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: Word Ladder · N° 01
+      - generic [ref=e6]: IF2211 / 13522140
+    - generic [ref=e8]:
+      - generic [ref=e9]: ↘ A puzzle by Lewis Carroll, 1877
+      - heading "Word Ladder." [level=1] [ref=e10]
+      - paragraph [ref=e11]:
+        - text: Change one letter at a time to climb from
+        - emphasis [ref=e12]: start
+        - text: to
+        - emphasis [ref=e13]: goal
+        - text: . Every rung must be a real word. Three search strategies race to find the shortest route.
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - generic [ref=e18]: § I
+          - heading "the words" [level=2] [ref=e19]
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - generic [ref=e23]:
+              - generic [ref=e24]: Start
+              - generic [ref=e25]: —
+            - textbox "Start —" [ref=e26]:
+              - /placeholder: COLD
+          - generic [ref=e27]:
+            - generic [ref=e28]:
+              - generic [ref=e29]: Goal
+              - generic [ref=e30]: —
+            - textbox "Goal —" [ref=e31]:
+              - /placeholder: WARM
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - generic [ref=e34]: § II
+          - heading "the method" [level=2] [ref=e35]
+        - generic [ref=e37]:
+          - generic [ref=e38] [cursor=pointer]:
+            - radio "UCS i Uniform cost. Optimal, patient." [checked] [ref=e39]
+            - generic [ref=e40]:
+              - generic [ref=e41]: UCS
+              - generic [ref=e42]: i
+            - paragraph [ref=e43]: Uniform cost. Optimal, patient.
+          - generic [ref=e44] [cursor=pointer]:
+            - radio "Greedy BFS ii Heuristic only. Fast, sometimes wrong." [ref=e45]
+            - generic [ref=e46]:
+              - generic [ref=e47]: Greedy BFS
+              - generic [ref=e48]: ii
+            - paragraph [ref=e49]: Heuristic only. Fast, sometimes wrong.
+          - generic [ref=e50] [cursor=pointer]:
+            - radio "A* iii Cost + heuristic. Best of both." [ref=e51]
+            - generic [ref=e52]:
+              - generic [ref=e53]: A*
+              - generic [ref=e54]: iii
+            - paragraph [ref=e55]: Cost + heuristic. Best of both.
+      - button "loading dictionary… →" [disabled] [ref=e57]:
+        - generic [ref=e58]: loading dictionary…
+        - generic [ref=e59]: →
+    - generic [ref=e60]:
+      - generic [ref=e61]: 80,368 entries · offline
+      - generic [ref=e62]: UCS · GBFS · A*
